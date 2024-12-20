@@ -6,7 +6,7 @@ st.set_page_config(page_title="Curriculum Vitae", layout="centered")
 
 # Foto dan Informasi Dasar
 st.title("Curriculum Vitae")
-foto = Image.open("foto.jpg")
+foto = Image.open("Foto.jpg")
 st.image(foto, width=200)
 
 # Biodata
